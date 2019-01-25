@@ -2,31 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Защита коров</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
     <style>
         .title {
             color: #003780;
         }
+
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 0.3%;
+            /*height: 60px;*/
+            background-color: #8b6845;
+        }
     </style>
 </head>
 <body>
-    <div class="title"><h2>Контакты ферм, куда можно сдать коров и телят</h2></div><br/>
 
-    <div>
-        <h3>Ферма «Бхуми»</h3>
-        Украина, Николаев, с. Безводное<br/>
-        Руководитель фермы: Олег Манилюк<br/>
-        Телефон: +38 066 700 56 29<br/>
-        <a href="http://www.bhumy.net">http://www.bhumy.net</a><br/>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d3a162;">
+        <a class="navbar-brand" href="#"><b>Контакты ферм-приютов</b> |</a>
+        <a class="navbar-brand" href="nekotoryye-standarty-molochnoy-industrii">Некоторые стандарты молочной промышленности |</a>
+        <a class="navbar-brand" href="#">Обман маркетологов |</a>
+        <a class="navbar-brand" href="about">О проекте</a>
+    </nav>
+
+    <div class="container">
+        <br/>
+        <div class="title"><h2>Контакты ферм-приютов, куда можно сдать коров и телят</h2></div><br/>
+
+        <div class="row">
+            <div class="col-sm">
+                <h3>Ферма «Бхуми»</h3>
+                <i>Украина, Николаев, с. Безводное</i><br/>
+                Руководитель фермы: Олег Манилюк<br/>
+                Телефон: +38 066 700 56 29<br/>
+                <a href="http://www.bhumy.net">http://www.bhumy.net</a><br/><br/>
+
+                <button class="btn btn-info"
+                    onclick="window.location='bhumy'">
+                    Подробнее...
+                </button>
+            </div>
+            <div class="col-sm">
+                <h3>Ферма «Гопал»</h3>
+                <i>Украина, Днепропетровская область, Царичанский район, с. Цыбульковка</i><br/>
+                Руководитель фермы: Андрей Быков<br/>
+                Телефон. +38 096 805 55 98<br/>
+                <a href="https://www.facebook.com/fermagopal/">https://www.facebook.com/fermagopal/</a><br/><br/>
+
+                <button class="btn btn-info"
+                        onclick="window.location='gopal'">
+                    Подробнее...
+                </button>
+            </div>
+        </div>
     </div>
 
-    <div>
-    <h3>Ферма «Гопал»</h3>
-        Украина, Днепропетровская область, Царичанский район, с. Цыбульковка<br/>
-        Руководитель фермы: Андрей Быков<br/>
-        Телефон. +38 096 805 55 98<br/>
-        <a href="https://www.facebook.com/fermagopal/">https://www.facebook.com/fermagopal/</a><br/>
-    </div>
+    <!-- footer -->
+    <footer id="footer">
+        <div style="color: #d9d9d9;"><b>© 2019 Sergey S.</b></div>
+    </footer>
 
 </body>
 </html>
