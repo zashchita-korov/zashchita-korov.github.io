@@ -1,0 +1,33 @@
+.title {
+    color: #503628;
+}
+
+.my-navbar {
+    padding: 0.5%;
+}
+
+.navigation-link {
+    padding-left: 1%;
+}
+
+.navigation-link:hover {
+    color: #eeeeee;
+    text-decoration: underline;     /* подчеркивание */
+}
+
+footer {
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+/*
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.3%;
+    /*height: 60px;
+    background-color: #8b6845;
+}*/
+
