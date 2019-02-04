@@ -1,0 +1,22 @@
+.logo {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.title-text-color {
+    color: #503628;
+}
+
+.farms-navigation-link {
+    /*padding-left: 0.1%;*/
+}
+
+.farms-navigation-link:hover {
+    color: #eeeeee;
+    text-decoration: underline;
+}
+
+/*.farms-dropdown-navigation-link-colors {
+    color: black;
+    background-color: #9a6f54;
+}*/
