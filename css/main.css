@@ -7,6 +7,10 @@
     color: #503628;
 }
 
+.content-in-center {
+    text-align: justify;
+}
+
 .farms-navigation-link {
     /*padding-left: 0.1%;*/
 }
