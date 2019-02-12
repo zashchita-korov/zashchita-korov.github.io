@@ -23,6 +23,13 @@
     background-clip: content-box;
 }
 
+.farms-ref-link-2 {
+    padding-top: 85px;
+    margin-top: -85px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
 /*.farms-dropdown-navigation-link-colors {
     color: black;
     background-color: #9a6f54;
