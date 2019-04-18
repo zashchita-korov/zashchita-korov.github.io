@@ -45,3 +45,7 @@
     -webkit-background-clip: content-box;
     background-clip: content-box;
 }
+
+.dropdown-cursor {
+    cursor: pointer;
+}
