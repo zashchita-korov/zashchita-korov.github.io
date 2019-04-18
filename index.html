@@ -21,6 +21,27 @@
         gtag('config', 'UA-134663988-1');
     </script>
 
+    <style>
+        .farm-name {
+            font-size: 132%;
+            color: #4f4f4f;
+            margin-bottom: 7px;
+        }
+
+        .farm-about {
+            margin-top: 7px;
+            margin-bottom: 15px;
+        }
+
+        .title-text-h1 {
+            /*font-size: 26px;*/
+        }
+
+        .title-text-h2 {
+            /*font-size: 24px;*/
+        }
+    </style>
+
     <!--Open Graph meta tags-->
     <!--<meta property="og:type" content="website" />-->
     <!--<meta property="og:url" content="https://zashchita-korov.github.io" />-->
@@ -41,7 +62,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #9a6f54;">
 
-            <a href="#"><img src="images/logo.jpg" class="logo"></a>
+            <a href="#"><img src="images/logo.jpg" class="logo" alt="Логотип проекта Защита коров"></a>
 
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 Меню <span class="navbar-toggler-icon"></span>
@@ -87,34 +108,54 @@
     <!-- Main content -->
     <div class="container">
         <br>
-        <div class="title-text-color"><h4><i>Контакты ферм-приютов, которые могут выкупить коров и телят:</i></h4></div><br>
+        <h1 class="title-text-h1"><i>Контакты ферм-приютов, занимающихся защитой коров</i></h1>
+
+        <div>
+            Вы можете сдать коров и телят в данные приюты, или договориться об их выкупе у вас.
+        </div>
+        <hr>
 
         <div class="row">
+            <!-- Бхуми -->
             <div class="col-sm">
-                <h3>Ферма «Бхуми»</h3>
-                <img src="images/bhumy.jpg" style="width: 60%"><br>
-                <i>Украина, Николаевская область, с. Безводное</i><br>
-                Руководитель фермы: Олег Манилюк<br>
-                Телефон: +38 066 700 56 29<br>
-                <a href="http://www.bhumy.net">http://www.bhumy.net</a><br><br>
+                <div class="farm-name">
+                    <b><i>Ферма «Бхуми»</i></b>
+                </div>
 
-                <button class="btn btn-secondary btn"
-                        onclick="window.location='bhumy'">
+                <img src="images/bhumy.jpg" style="width: 60%" alt="Фотография с фермы Бхуми">
+
+                <div class="farm-about">
+                    <i>Украина, Николаевская область, с. Безводное</i><br>
+                    Руководитель фермы: Олег Манилюк<br>
+                    Телефон: +38 066 700 56 29<br>
+                    <a href="http://www.bhumy.org">http://www.bhumy.org</a><br>
+                    <a href="http://www.bhumy.net">http://www.bhumy.net</a>
+                </div>
+
+                <button class="btn btn-secondary btn" onclick="window.location='bhumy'">
                     Подробнее...
                 </button>
-                <br><br><br>
+
+                <br>
+                <br>
             </div>
 
+            <!-- Гопал -->
             <div class="col-sm">
-                <h3>Ферма «Гопал»</h3>
-                <img src="images/gopal.jpg" style="width: 60%"><br>
-                <i>Украина, Днепропетровская область, <br>Царичанский район, с. Цыбульковка</i><br>
-                Руководитель фермы: Андрей Быков<br>
-                Телефон. +38 096 805 55 98<br>
-                <a href="https://www.facebook.com/fermagopal/">https://www.facebook.com/fermagopal/</a><br><br>
+                <div class="farm-name">
+                    <b><i>Ферма «Гопал»</i></b>
+                </div>
 
-                <button class="btn btn-secondary btn"
-                        onclick="window.location='gopal'">
+                <img src="images/gopal.jpg" style="width: 60%" alt="Фотография с фермы Гопал">
+
+                <div class="farm-about">
+                    <i>Украина, Днепропетровская область, <br>Царичанский район, с. Цыбульковка</i><br>
+                    Руководитель фермы: Андрей Быков<br>
+                    Телефон. +38 096 805 55 98<br>
+                    <a href="https://www.facebook.com/fermagopal/">https://www.facebook.com/fermagopal/</a>
+                </div>
+
+                <button class="btn btn-secondary btn" onclick="window.location='gopal'">
                     Подробнее...
                 </button>
             </div>
@@ -122,11 +163,12 @@
 
         <br><hr>
 
-        <div>
-            <div class="title-text-color farms-ref-link" id="ref_bezuboynaya_model"><h4><i>Безубойная модель получения молока:</i></h4></div><br>
-            <img src="images/milk-schema.png" alt="Безубойная модель получения молочной продукции" class="img-fluid w-100"/>
-            <br><br>
-        </div>
+        <!--<div class="farms-ref-link" id="ref_bezuboynaya_model">-->
+            <h2 class="title-text-h2 farms-ref-link" id="ref_bezuboynaya_model"><i>Безубойная модель получения молока:</i></h2>
+        <!--</div>-->
+        <br>
+        <img src="images/milk-schema.png" alt="Безубойная модель получения молочной продукции" class="img-fluid w-100"/>
+        <br><br>
 
         <div style="text-align: justify">
             <p>Представленная на схеме безубойная модель, реализована вышеупомянутыми фермами «Гопал» и «Бхуми».</p>
